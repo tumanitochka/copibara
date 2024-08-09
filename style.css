@@ -2,7 +2,7 @@ html, body {
 	padding: 0;
 	margin: 0;
 	overflow: hidden;
-	height: 100vh;
+	height: 100%;
 }
 
 body {
@@ -108,10 +108,4 @@ html[ioswebview] .c3htmlwrap > * {
     height: 1px;
     overflow: hidden;
     clip: rect(1px, 1px, 1px, 1px);
-}
-
-.ponchik {
-	transform: scale(0.1) !important;
-	filter: blur(100px);
-	zoom: 10%;
 }
